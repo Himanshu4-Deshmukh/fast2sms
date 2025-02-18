@@ -2,9 +2,9 @@
 session_start();
 
 // Configuration
-$API_KEY = '5y7VSTU3H7OdM7CImJm99lSxBPDf52SBczM0Gh3gDVR4SPC2Yd7A7BaLHRKB';
-$SENDER_ID = 'JKCSCC';
-$MESSAGE_ID = '177050';  // DLT Template ID
+$API_KEY = '';
+$SENDER_ID = '';
+$MESSAGE_ID = '';  // DLT Template ID
 
 // Handle AJAX requests
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
